@@ -1,8 +1,6 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
-const token = 'process.env.BOT_TOKEN';
-
 const PREFIX = 'p-';
 
 bot.on('ready', () =>{
@@ -38,4 +36,4 @@ bot.on('guildMemberAdd', member=> {
     channel.send(`Selamat datang ${member}! Jangan lupa perkenalkan dirimu di #perkenalan-member`);
 });
 
-bot.login(token);
+bot.login(process.env.TOKEN);
