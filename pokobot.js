@@ -14,8 +14,7 @@ bot.on('message', message=>{
     msg = message.content.toLowerCase();
     if(msg.startsWith("Ampaz".toLocaleLowerCase())) {
       message.channel.send('HAHAHA Ampaz, Semangat terus bro!');
-  }
-    if(msg.startsWith("Gas".toLocaleLowerCase())) {
+  }else if(msg.startsWith("Gas".toLocaleLowerCase())) {
       message.channel.send('Mulai Gacha!');
   }
 
