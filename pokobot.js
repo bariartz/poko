@@ -49,7 +49,8 @@ bot.on('message', message=>{
         { name: 'Pencari Waifu | Discord', value: 'Andrean' },
         { name: 'R. | Discord', value: 'Rafi' },
         );
-    channel.send(EmbedAdmin);
+          
+    message.channel.send(EmbedAdmin);
     break;
 }
 });
