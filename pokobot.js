@@ -17,6 +17,17 @@ bot.on('message', message=>{
   }
 
   let args = message.content.substring(PREFIX.length).split(" ");
+  let statusArray = [
+        "Jomblo Abadi",
+        "Habis Diputusin",
+        "Ditinggal Pas Lagi Sayang-sayangnya",
+        "Fuckboy",
+        "Lolicon",
+        "WIBU Tingkat Dewa",
+        "Playboy",
+        "Sedang diintel Malaikat Maut"
+  ];
+  let status = statusArray[Math.floor(Math.random()*statusArray.length)];
 
   switch(args[0]){
     case 'ping':
