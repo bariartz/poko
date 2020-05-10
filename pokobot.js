@@ -35,7 +35,7 @@ bot.on('message', message=>{
     break;
 
     case 'status':
-    message.reply('Jomblo terus');
+    message.reply(status);
     break;
 }
 });
