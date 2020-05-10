@@ -40,16 +40,15 @@ bot.on('message', message=>{
     break;
           
     case 'admin':
-    .setColor('#fd8f2a')
-    .setTitle('Daftar Admin Pokonime')
+    .setColor('#fd8f2a');
+    .setTitle('Daftar Admin Pokonime');
     .addFields(
         { name: 'Poko Chan | All', value: 'Zulki' },
         { name: 'Makhluk | FB & Discord', value: 'Juhend' },
         { name: 'San | Discord', value: 'Sandi' },
         { name: 'Pencari Waifu | Discord', value: 'Andrean' },
         { name: 'R. | Discord', value: 'Rafi' },
-        )
-
+        );
     channel.send(EmbedAdmin);
     break;
 }
