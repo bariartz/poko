@@ -40,8 +40,8 @@ bot.on('message', message=>{
     break;
           
     case 'admin':
-    .setColor('#fd8f2a');
-    .setTitle('Daftar Admin Pokonime');
+    EmbedAdmin.setColor('#fd8f2a')
+    .setTitle('Daftar Admin Pokonime')
     .addFields(
         { name: 'Poko Chan | All', value: 'Zulki' },
         { name: 'Makhluk | FB & Discord', value: 'Juhend' },
