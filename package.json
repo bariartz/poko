@@ -1,0 +1,25 @@
+{
+
+  "name": "Poko Bot",
+
+  "description": "Poko Bot by Pokonime",
+
+  "version": "1.0.0",
+
+  "main": "pokobot.js",
+
+  "scripts": {
+
+    "start": "node pokobot.js"
+
+  },
+
+  "dependencies": {
+
+    "discord.js": "^12.2.0",
+
+    "request": "2.81.0"
+
+  }
+
+}
