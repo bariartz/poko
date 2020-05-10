@@ -1,6 +1,5 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-const EmbedAdmin = new Discord.MessageEmbed();
 
 const PREFIX = 'p-';
 
@@ -40,7 +39,8 @@ bot.on('message', message=>{
     break;
           
     case 'admin':
-    EmbedAdmin.setColor('#fd8f2a')
+    const EmbedAdmin = new Discord.MessageEmbed()
+    .setColor('#fd8f2a')
     .setTitle('Daftar Admin Pokonime')
     .addFields(
         { name: 'Poko Chan | All', value: 'Zulki' },
