@@ -15,6 +15,9 @@ bot.on('message', message=>{
     if(msg.startsWith("Ampaz".toLocaleLowerCase())) {
       message.channel.send('HAHAHA Ampaz, Semangat terus bro!');
   }
+    if(msg.startsWith("Gas".toLocaleLowerCase())) {
+      message.channel.send('Mulai Gacha!');
+  }
 
   let args = message.content.substring(PREFIX.length).split(" ");
   let statusArray = [
